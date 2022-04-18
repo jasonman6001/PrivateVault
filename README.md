@@ -1,7 +1,9 @@
 # PrivateVault
-Private aka VaultRoom.
+Private Vault aka VaultRoom.
 
 This is WIP work in the progress of a building in dayz.
+
+Will be more to come with many features. 
 
 Functions that need added:
 - Fixing Opening and closing the door 

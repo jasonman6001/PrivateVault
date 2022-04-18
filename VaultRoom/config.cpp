@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		units[]=
 		{
-			"land_VaultRoom_V1"
+			""
 		};
 		weapons[]={};
 		requiredVersion=1.25;

@@ -26,18 +26,26 @@ class CfgVehicles
 		class Doors
 		{
 			
-			class Door1
+			class VaultDoorOpen
 			{
 				displayName = "Twin Doors 1";
-				component = "Door1";
+				component = "VaultDoorOpen";
 				soundPos = "door1_action";
-				animPeriod = 1.0;
+				animPeriod = 6.2;
 				initPhase = 0;
 				initOpened = 0.0;
 				soundOpen = "doorMetalSlideLargeOpen";
 				soundClose = "doorMetalSlideLargeClose";
 				soundLocked = "doorMetalSlideLargeRattle";
 				soundOpenABit = "doorMetalSlideLargeOpenABit";
+			};
+		};
+		class UserActions
+		{
+			class VaultDoorOpen_action
+			{
+				onlyforplayer = true/false;							// mandatory
+				statement = "this animate ['VaultDoorOpen', 1];";	// executed when action is triggered
 			};
 		};
 		class DamageSystem
@@ -68,7 +76,7 @@ class CfgVehicles
 			
 			class DamageZones
 			{
-				class Door1
+				class VaultDoorOpen
 				{
 					class Health
 					{

@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="VaultRoom\data\Textures\VaultRoomV4_co.paa";
+	texture="VaultRoom\data\Textures\VaultRoomV5_co.paa";
 	uvSource="tex";
 	class uvTransform
 	{
